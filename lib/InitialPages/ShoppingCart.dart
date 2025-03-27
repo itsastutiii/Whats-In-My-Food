@@ -43,11 +43,11 @@ class ShoppingCart extends StatelessWidget {
         elevation: 0,
         iconTheme: const IconThemeData(color: Colors.black),
         toolbarTextStyle: const TextTheme(
-          headline6: TextStyle(color: Colors.black),
-        ).bodyText2,
+          titleLarge: TextStyle(color: Colors.black),
+        ).bodyMedium,
         titleTextStyle: const TextTheme(
-          headline6: TextStyle(color: Colors.black),
-        ).headline6,
+          titleLarge: TextStyle(color: Colors.black),
+        ).titleLarge,
       ),
       body: Stack(
         children: [
